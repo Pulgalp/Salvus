@@ -1,0 +1,223 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml:2:1-41:12
+MERGED from [com.android.support:design:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/402c05733c910d66fc4dcd88e2b87d47/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/ba029325428a5949af215c69c49add31/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/fac3ad6b76baeb41fbf48a9666ab56d7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/d3c7e9db3c5c2639fdf4005dc57c97ea/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/55079433c675a5ea4b561b9b173e36bd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/c023f09a8460b14c088267d3c3466c3c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/a4b62735f197343eac046bc03ed4b6f3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/65620908c0e25359f338ee069760645a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/9035496ea53a9cc472d98595e5acd4d5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/4b71a7b50bc50120ac112a74acc33cf5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/5b153e4f3b992b1cb0d5b82993dd0def/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/d8aef4d2a2ff51196c8bc8867f7786a5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/beea5d1ea6c68687af84db3462f223ef/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/a0f17fe7ddaccae85856dcd61150025f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/bf0be7d9e7421af9ef2e0bbbc7026929/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/ca11df5c969977db266e8cbe4359cf22/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/60990da200c168b26a31a6178af5be74/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/23ca4fbe1b7f65b8b87d19f0e2add950/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/f1f12f1dc507cfecee37b3bd014a924f/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/394909093836beabdde3667d7b77630a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/9272a83a666bb8c64bc6af16f8493328/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/4c9320e85b6559b03aeaf164c3df98dc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/20d99aa82bbc04f4b90cf800d2688fd1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/27e5bb5f9c9d9e4eb88f573e6afabd8f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/9c0a2b40d8ec84b571b21d8c92dbad53/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/b25120060398bf49f55662468c0e9456/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/e3e14194fbbdc686c341534823ef0270/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/dd61b049f8b7509bbd4e3b2bf63df5ab/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/a556aabb2d317a96e93d3259053b721b/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/4d1fdaef51de25532c7d6accaf0bf27a/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml:2:1-41:12
+	package
+		ADDED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml:4:11-46
+		INJECTED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml
+		ADDED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml:2:1-41:12
+		INJECTED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml:3:11-57
+	android:versionCode
+		INJECTED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml
+		ADDED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml:2:1-41:12
+		INJECTED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.NFC
+ADDED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml:7:5-61
+	android:name
+		ADDED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml:7:22-59
+uses-permission#android.permission.INTERNET
+ADDED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml:8:5-66
+	android:name
+		ADDED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml:8:22-64
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml:9:5-70
+	android:name
+		ADDED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml:9:22-68
+uses-permission#android.permission.READ_PROFILE
+ADDED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml:10:5-70
+	android:name
+		ADDED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml:10:22-68
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml:11:5-71
+	android:name
+		ADDED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml:11:22-69
+application
+ADDED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml:13:5-39:19
+MERGED from [com.android.support:design:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/402c05733c910d66fc4dcd88e2b87d47/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/402c05733c910d66fc4dcd88e2b87d47/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/23ca4fbe1b7f65b8b87d19f0e2add950/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/23ca4fbe1b7f65b8b87d19f0e2add950/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/f1f12f1dc507cfecee37b3bd014a924f/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/f1f12f1dc507cfecee37b3bd014a924f/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/23ca4fbe1b7f65b8b87d19f0e2add950/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml:17:9-35
+	android:label
+		ADDED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml:16:9-41
+	tools:ignore
+		ADDED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml:19:9-48
+	android:icon
+		ADDED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml:15:9-43
+	android:allowBackup
+		ADDED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml:14:9-35
+	android:theme
+		ADDED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml:18:9-40
+activity#com.example.rafael.salvus.LoginActivity
+ADDED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml:20:9-28:20
+	android:label
+		ADDED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml:22:13-45
+	android:name
+		ADDED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml:21:13-42
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml:23:13-27:29
+action#android.intent.action.MAIN
+ADDED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml:24:17-68
+	android:name
+		ADDED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml:24:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml:26:17-76
+	android:name
+		ADDED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml:26:27-74
+activity#com.example.rafael.salvus.MainActivity
+ADDED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml:29:9-49
+	android:name
+		ADDED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml:29:19-47
+activity#com.example.rafael.salvus.OpcoesPacienteActivity
+ADDED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml:30:9-59
+	android:name
+		ADDED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml:30:19-57
+activity#com.example.rafael.salvus.InfoPacienteActivity
+ADDED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml:31:9-32:51
+	android:name
+		ADDED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml:32:13-49
+activity#com.example.rafael.salvus.ListaConsultasActivity
+ADDED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml:33:9-59
+	android:name
+		ADDED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml:33:19-57
+activity#com.example.rafael.salvus.ConsultaActivity
+ADDED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml:34:9-53
+	android:name
+		ADDED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml:34:19-51
+activity#com.example.rafael.salvus.ListaMedicacoesActivity
+ADDED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml:35:9-60
+	android:name
+		ADDED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml:35:19-58
+activity#com.example.rafael.salvus.MedicacoesActivity
+ADDED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml:36:9-55
+	android:name
+		ADDED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml:36:19-53
+activity#com.example.rafael.salvus.ListaExamesActivity
+ADDED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml:37:9-56
+	android:name
+		ADDED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml:37:19-54
+activity#com.example.rafael.salvus.ExameActivity
+ADDED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml:38:9-60
+	android:name
+		ADDED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml:38:19-48
+uses-sdk
+INJECTED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml
+INJECTED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/402c05733c910d66fc4dcd88e2b87d47/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/402c05733c910d66fc4dcd88e2b87d47/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/ba029325428a5949af215c69c49add31/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/ba029325428a5949af215c69c49add31/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/fac3ad6b76baeb41fbf48a9666ab56d7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/fac3ad6b76baeb41fbf48a9666ab56d7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/d3c7e9db3c5c2639fdf4005dc57c97ea/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/d3c7e9db3c5c2639fdf4005dc57c97ea/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/55079433c675a5ea4b561b9b173e36bd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/55079433c675a5ea4b561b9b173e36bd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/c023f09a8460b14c088267d3c3466c3c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/c023f09a8460b14c088267d3c3466c3c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/a4b62735f197343eac046bc03ed4b6f3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/a4b62735f197343eac046bc03ed4b6f3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/65620908c0e25359f338ee069760645a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/65620908c0e25359f338ee069760645a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/9035496ea53a9cc472d98595e5acd4d5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/9035496ea53a9cc472d98595e5acd4d5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/4b71a7b50bc50120ac112a74acc33cf5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/4b71a7b50bc50120ac112a74acc33cf5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/5b153e4f3b992b1cb0d5b82993dd0def/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/5b153e4f3b992b1cb0d5b82993dd0def/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/d8aef4d2a2ff51196c8bc8867f7786a5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/d8aef4d2a2ff51196c8bc8867f7786a5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/beea5d1ea6c68687af84db3462f223ef/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/beea5d1ea6c68687af84db3462f223ef/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/a0f17fe7ddaccae85856dcd61150025f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/a0f17fe7ddaccae85856dcd61150025f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/bf0be7d9e7421af9ef2e0bbbc7026929/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/bf0be7d9e7421af9ef2e0bbbc7026929/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/ca11df5c969977db266e8cbe4359cf22/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/ca11df5c969977db266e8cbe4359cf22/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/60990da200c168b26a31a6178af5be74/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/60990da200c168b26a31a6178af5be74/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/23ca4fbe1b7f65b8b87d19f0e2add950/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/23ca4fbe1b7f65b8b87d19f0e2add950/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/f1f12f1dc507cfecee37b3bd014a924f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/f1f12f1dc507cfecee37b3bd014a924f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/394909093836beabdde3667d7b77630a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/394909093836beabdde3667d7b77630a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/9272a83a666bb8c64bc6af16f8493328/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/9272a83a666bb8c64bc6af16f8493328/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/4c9320e85b6559b03aeaf164c3df98dc/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/4c9320e85b6559b03aeaf164c3df98dc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/20d99aa82bbc04f4b90cf800d2688fd1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/20d99aa82bbc04f4b90cf800d2688fd1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/27e5bb5f9c9d9e4eb88f573e6afabd8f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/27e5bb5f9c9d9e4eb88f573e6afabd8f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/9c0a2b40d8ec84b571b21d8c92dbad53/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/9c0a2b40d8ec84b571b21d8c92dbad53/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/b25120060398bf49f55662468c0e9456/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/b25120060398bf49f55662468c0e9456/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/e3e14194fbbdc686c341534823ef0270/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/e3e14194fbbdc686c341534823ef0270/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/dd61b049f8b7509bbd4e3b2bf63df5ab/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/dd61b049f8b7509bbd4e3b2bf63df5ab/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/a556aabb2d317a96e93d3259053b721b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/a556aabb2d317a96e93d3259053b721b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/4d1fdaef51de25532c7d6accaf0bf27a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/teamwork/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/4d1fdaef51de25532c7d6accaf0bf27a/AndroidManifest.xml:20:5-44
+INJECTED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml
+INJECTED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml
+		ADDED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml
+		ADDED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/teamwork/Downloads/Salvus/app/src/main/AndroidManifest.xml

@@ -1,0 +1,94 @@
+package ferramentas;
+
+import org.spongycastle.crypto.digests.SHA256Digest;
+import org.spongycastle.crypto.macs.HMac;
+import org.spongycastle.crypto.params.KeyParameter;
+import org.spongycastle.jce.provider.BouncyCastleProvider;
+
+import java.io.UnsupportedEncodingException;
+import java.security.InvalidAlgorithmParameterException;
+import java.security.InvalidKeyException;
+import java.security.Key;
+import java.security.NoSuchAlgorithmException;
+import java.security.NoSuchProviderException;
+
+import javax.crypto.BadPaddingException;
+import javax.crypto.Cipher;
+import javax.crypto.IllegalBlockSizeException;
+import javax.crypto.NoSuchPaddingException;
+import javax.crypto.ShortBufferException;
+import javax.crypto.spec.IvParameterSpec;
+
+/**
+ * Created by Rafael on 06/07/2016.
+ */
+public class Criptografia {
+
+    public static String generateKeyHMAC(byte[] msg, byte[] salt)
+    {
+        HMac hmac = new HMac(new SHA256Digest());
+        byte[] result = new byte[hmac.getMacSize()];
+
+        KeyParameter kp = new KeyParameter(salt);
+        hmac.init(kp);
+        hmac.update(msg,0,msg.length);
+        hmac.doFinal(result,0);
+        return Tools.bytesToHex(result);
+    }
+    public static boolean compareHMACs(String hmaca, String hmacb){
+        return hmaca.equals(hmacb);
+    }
+
+
+    //Encrypt Strings using the Secret Key
+
+    public static String criptografaString(String plainText, Key key, byte[] iv) {
+        try {
+            IvParameterSpec ivSpec = new IvParameterSpec(iv);
+            Cipher cipher = Cipher.getInstance("AES/GCM/NoPadding", BouncyCastleProvider.PROVIDER_NAME); //Cipher algorithm AES/GCM
+            byte[] plainTextBytes = plainText.getBytes("UTF-8");
+            byte[] cipherText;
+
+            cipher.init(Cipher.ENCRYPT_MODE, key, ivSpec);
+            cipherText = new byte[cipher.getOutputSize(plainTextBytes.length)];
+            int encryptLength = cipher.update(plainTextBytes, 0,
+                    plainTextBytes.length, cipherText, 0);
+            encryptLength += cipher.doFinal(cipherText, encryptLength);
+
+            return Tools.bytesToHex(cipherText);
+        } catch (NoSuchAlgorithmException | NoSuchProviderException
+                | NoSuchPaddingException | InvalidKeyException
+                | InvalidAlgorithmParameterException
+                | UnsupportedEncodingException | ShortBufferException
+                | IllegalBlockSizeException | BadPaddingException e) {
+            e.printStackTrace();
+            return null;
+        }
+    }
+
+    //Decrypt Strings using the Secret Key
+
+    public static String descriptografaString(String cipherText, Key key, byte[] iv) {
+        try {
+            IvParameterSpec ivSpec = new IvParameterSpec(iv);
+            Cipher cipher = Cipher.getInstance("AES/GCM/NoPadding", BouncyCastleProvider.PROVIDER_NAME);
+            byte[] cipherTextBytes = Tools.hexToBytes(cipherText);
+            byte[] plainText;
+
+            cipher.init(Cipher.DECRYPT_MODE, key, ivSpec);
+            plainText = new byte[cipher.getOutputSize(cipherTextBytes.length)];
+            int decryptLength;
+            decryptLength = cipher.update(cipherTextBytes, 0, cipherTextBytes.length, plainText, 0);
+            decryptLength += cipher.doFinal(plainText, decryptLength);
+
+            return new String(plainText, "UTF-8");
+        } catch (NoSuchAlgorithmException | NoSuchProviderException
+                | NoSuchPaddingException | InvalidKeyException
+                | InvalidAlgorithmParameterException
+                | IllegalBlockSizeException | BadPaddingException
+                | ShortBufferException | UnsupportedEncodingException e) {
+            e.printStackTrace();
+            return null;
+        }
+    }
+}
