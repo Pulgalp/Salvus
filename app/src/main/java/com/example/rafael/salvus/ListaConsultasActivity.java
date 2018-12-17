@@ -10,14 +10,13 @@ import android.widget.SimpleAdapter;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 
 import dominio.Consulta;
 import dominio.Medico;
+import utils.DataUtils;
 
 public class ListaConsultasActivity extends AppCompatActivity {
-
-
-    private ListView consultasListView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,34 +24,11 @@ public class ListaConsultasActivity extends AppCompatActivity {
         setContentView(R.layout.activity_lista_consultas);
         setTitle("Consultas");
 
-        consultasListView = findViewById(R.id.consultasListView);
-
-        final ArrayList<Consulta> consultas = new ArrayList<>();
-        consultas.add(new Consulta(1,
-                "Paciente está bem, mas insiste em refazer o exame por sentir dores e um incômodo na próstata",
-                "06/12/2018",
-                new Medico(1,
-                        "Teobaldo Leopoldo Costa Limpa",
-                        "Cancer de próstata")
-        ));
-
-        consultas.add(new Consulta(2,
-                "Paciente disse que não ia tomar glicose pq já tinha tomado demais durante o dia",
-                "03/12/2018",
-                new Medico(2,
-                        "Leopoldo Manoel da Rocha",
-                        "Gastrointestinal")));
-
-        consultas.add(new Consulta(3,
-                "Paciente não conseguia se equilibrar, mas ainda sim sem dores muito fortes",
-                "01/12/2018",
-                new Medico(3,
-                        "Roberlei Anacleto Tora",
-                        "Fisioterapeuta")));
+        ListView consultasListView = findViewById(R.id.consultasListView);
 
         ArrayList<HashMap<String, String>> list = new ArrayList<HashMap<String, String>>();
 
-
+        final List<Consulta> consultas = DataUtils.getConsultas();
         for (int i = 0; i < consultas.size(); i++) {
             HashMap<String, String> item = new HashMap<String, String>();
             item.put("medico", consultas.get(i).getMedico().getNome() + " (" + consultas.get(i).getMedico().getEspecialidade() + ")");

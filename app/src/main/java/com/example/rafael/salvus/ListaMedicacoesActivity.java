@@ -10,14 +10,13 @@ import android.widget.SimpleAdapter;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 
 import dominio.Medicacao;
 import dominio.Medico;
+import utils.DataUtils;
 
 public class ListaMedicacoesActivity extends AppCompatActivity {
-
-    private ListView medicacoesListView;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,36 +24,9 @@ public class ListaMedicacoesActivity extends AppCompatActivity {
         setContentView(R.layout.activity_lista_medicacoes);
         setTitle("Medicacoes");
 
-        medicacoesListView = findViewById(R.id.listaMedicacoesListView);
+        ListView medicacoesListView = findViewById(R.id.listaMedicacoesListView);
 
-        final ArrayList<Medicacao> medicacoes = new ArrayList<>();
-
-        medicacoes.add(new Medicacao(
-                1,
-                "01/12/2018",
-                new Medico(1,
-                        "Teobaldo Leopoldo Costa Limpa",
-                        "Cancer de próstata"),
-                "Paracetamol"
-        ));
-
-        medicacoes.add(new Medicacao(
-                2,
-                "02/12/2018",
-                new Medico(2,
-                        "Leopoldo Manoel da Rocha",
-                        "Gastrointestinal"),
-                "Engov"
-        ));
-
-        medicacoes.add(new Medicacao(
-                3,
-                "03/12/2018",
-                new Medico(3,
-                        "Roberlei Anacleto Tora",
-                        "Fisioterapeuta"),
-                "Anti inflamatório"
-        ));
+        final List<Medicacao> medicacoes = DataUtils.getMedicacoes();
 
         ArrayList<HashMap<String, String>> list = new ArrayList<HashMap<String, String>>();
         for (int i = 0; i < medicacoes.size(); i++) {

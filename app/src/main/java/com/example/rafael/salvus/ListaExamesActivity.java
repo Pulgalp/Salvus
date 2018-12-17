@@ -10,14 +10,13 @@ import android.widget.SimpleAdapter;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 
 import dominio.Exame;
 import dominio.Medico;
+import utils.DataUtils;
 
 public class ListaExamesActivity extends AppCompatActivity {
-
-    private ArrayList<Exame> exames;
-    private ListView examesListView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,34 +24,9 @@ public class ListaExamesActivity extends AppCompatActivity {
         setContentView(R.layout.activity_lista_exames);
         setTitle("Exames");
 
-        examesListView = findViewById(R.id.listaExamesListView);
+        ListView examesListView = findViewById(R.id.listaExamesListView);
 
-        exames = new ArrayList<>();
-
-        Medico medico = new Medico(1,
-                "Teobaldo Leopoldo Costa Limpa",
-                "Cancer de próstata");
-
-        exames.add(new Exame(1,
-                "01/02/2018",
-                "Laudo oficial numero 1",
-                medico,
-                "Tipo de laudo 1")
-        );
-
-        exames.add(new Exame(2,
-                "02/02/2018",
-                "Laudo oficial numero 2",
-                medico,
-                "Tipo de laudo 2")
-        );
-
-        exames.add(new Exame(3,
-                "03/02/2018",
-                "Laudo oficial numero 3",
-                medico,
-                "Tipo de laudo 3")
-        );
+        final List<Exame> exames = DataUtils.getExames();
 
         ArrayList<HashMap<String, String>> list = new ArrayList<HashMap<String, String>>();
         for (int i = 0; i < exames.size(); i++) {
