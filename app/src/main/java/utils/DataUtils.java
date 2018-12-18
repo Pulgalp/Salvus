@@ -49,23 +49,23 @@ public final class DataUtils {
         List<Medico> medicos = DataUtils.getMedicos();
         exames.add(new Exame(1,
                 "01/02/2018",
-                "Atesto para os devidos fins de direito que o(a) Sr.(a) Carlos Rafael Pulga é portador da deficiência espécie Código Internacional de Doença (CID10) 87,  possuindo o seguinte grau/nível de deficiência ALTA, sendo a causa desta deficiência GENÉTICA, possuindo o(a) candidato(a) o seguinte nível de autonomia REGULAR.",
+                "Atesto para os devidos fins de direito que o(a) Sr.(a) Carlos Alberto Barbosa é portador da deficiência espécie Código Internacional de Doença (CID10) 87,  possuindo o seguinte grau/nível de deficiência ALTA, sendo a causa desta deficiência GENÉTICA, possuindo o(a) candidato(a) o seguinte nível de autonomia REGULAR.",
                 medicos.get(0),
                 "Atestado")
         );
 
         exames.add(new Exame(2,
                 "02/02/2018",
-                "Atesto para os devidos fins de direito que o(a) Sr.(a) Carlos Rafael Pulga é portador da deficiência espécie Código Internacional de Doença (CID10) 35,  possuindo o seguinte grau/nível de deficiência MEDIA, sendo a causa desta deficiência GENÉTICA, possuindo o(a) candidato(a) o seguinte nível de autonomia ALTA.",
+                "Atesto para os devidos fins de direito que o(a) Sr.(a) Carlos Alberto Barbosa é portador da deficiência espécie Código Internacional de Doença (CID10) 35,  possuindo o seguinte grau/nível de deficiência MEDIA, sendo a causa desta deficiência GENÉTICA, possuindo o(a) candidato(a) o seguinte nível de autonomia ALTA.",
                 medicos.get(1),
                 "Laudo de exame")
         );
 
         exames.add(new Exame(3,
                 "03/02/2018",
-                "Atesto para os devidos fins de direito que o(a) Sr.(a) Carlos Rafael Pulga é portador da deficiência espécie Código Internacional de Doença (CID10) 20,  possuindo o seguinte grau/nível de deficiência BAIXA, sendo a causa desta deficiência CONTAMINAÇÃO, possuindo o(a) candidato(a) o seguinte nível de autonomia BAIXA.",
+                "Atesto para os devidos fins de direito que o(a) Sr.(a) Carlos Alberto Barbosa é portador da deficiência espécie Código Internacional de Doença (CID10) 20,  possuindo o seguinte grau/nível de deficiência BAIXA, sendo a causa desta deficiência CONTAMINAÇÃO, possuindo o(a) candidato(a) o seguinte nível de autonomia BAIXA.",
                 medicos.get(2),
-                "Laudo de consulta")
+                "Tomografia computadorizada/ressonância magnética")
         );
 
         return exames;
@@ -79,21 +79,28 @@ public final class DataUtils {
                 1,
                 "01/12/2018",
                 medicos.get(0),
-                "Paracetamol"
+                "Analgésico -> Paracetamol"
         ));
 
         medicacoes.add(new Medicacao(
                 2,
                 "02/12/2018",
                 medicos.get(1),
-                "Engov"
+                "Ergotaminas -> Almotriptan"
         ));
 
         medicacoes.add(new Medicacao(
                 3,
                 "03/12/2018",
                 medicos.get(2),
-                "Anti inflamatório"
+                "Anti inflamatório -> Indometacina"
+        ));
+
+        medicacoes.add(new Medicacao(
+                4,
+                "04/12/2018",
+                medicos.get(0),
+                "Vitamina B2"
         ));
         return medicacoes;
     }

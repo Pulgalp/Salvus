@@ -31,7 +31,7 @@ public class InfoPacienteActivity extends AppCompatActivity {
 
         paciente = new Paciente(123,
                 "777.187.629-39",
-                "Carlos Rafael Pulga",
+                "Carlos Alberto Barbosa",
                 "+55 (11) 99999-9999",
                 "Penicilina, Eritromicina, Amoxicilina, Ampicilina ou Tetraciclina",
                 "O+");

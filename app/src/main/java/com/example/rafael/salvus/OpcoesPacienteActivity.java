@@ -53,13 +53,13 @@ public class OpcoesPacienteActivity extends AppCompatActivity {
         //inserindo os dados dos clientes na lista
         ArrayList<HashMap<String, String>> list = new ArrayList<HashMap<String, String>>();
         HashMap<String, String> item = new HashMap<String, String>();
-        item.put("nome", "Informacoes");
+        item.put("nome", "Informações do pacitente");
         list.add(item);
         HashMap<String, String> item2 = new HashMap<String, String>();
         item2.put("nome", "Consultas");
         list.add(item2);
         HashMap<String, String> item3 = new HashMap<String, String>();
-        item3.put("nome", "Medicacoes");
+        item3.put("nome", "Medicações");
         list.add(item3);
         HashMap<String, String> item4 = new HashMap<String, String>();
         item4.put("nome", "Exames");
